@@ -9,7 +9,7 @@ import {
     DeployOptimism
 } from "script/DeployKwenta.s.sol";
 import {Test} from "lib/forge-std/src/Test.sol";
-import {MockToken} from "test/utils/MockToken.sol";
+import {MockToken} from "test/KwentaConversionTestSuite/utils/MockToken.sol";
 import {Constants} from "./Constants.sol";
 import {IERC20} from
     "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
