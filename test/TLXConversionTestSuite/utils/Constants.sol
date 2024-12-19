@@ -16,7 +16,7 @@ contract Constants {
     uint256 internal constant CONVERSION_RATE = 18;
     uint256 internal constant CONVERTED_SNX_AMOUNT =
         TEST_AMOUNT / CONVERSION_RATE;
-    uint256 internal constant VESTING_LOCK_DURATION = 30 days;
+    uint256 internal constant VESTING_LOCK_DURATION = 31 days;
     uint256 internal constant VESTING_START_TIME = 1_733_356_800;
     uint256 internal constant WITHDRAW_START = 730 days;
     uint256 internal constant LINEAR_VESTING_DURATION = 120 days;
